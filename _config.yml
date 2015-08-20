@@ -1,0 +1,11 @@
+# Site settings
+title: Krishna Raman
+email: k@krishnaraman.net
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://krishnaraman.net" # the base hostname & protocol for your site
+twitter_username: k__raman
+github_username:  kraman
+
+# Build settings
+markdown: kramdown
