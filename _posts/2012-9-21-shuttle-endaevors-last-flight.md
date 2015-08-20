@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Shuttle Endeavour’s final flight"
-date:   2012-09-21 21:00:00
-categories:
-tags:
+year: 2012
+month: 09
+day: 21
+categories: misc
+tags: shuttle last-flight
 ---
 Perfect day for the final flight of Space Shuttle Endeavour over Mountain View, CA
 

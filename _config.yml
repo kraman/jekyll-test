@@ -6,6 +6,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://krishnaraman.net" # the base hostname & protocol for your site
 twitter_username: k__raman
 github_username:  kraman
+permalink: pretty
 
 # Build settings
 markdown: kramdown
+
+# jekyll-tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+tag_permalink_style: pretty
