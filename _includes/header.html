@@ -1,4 +1,23 @@
-<header class="site-header">
+
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <h3>{{ site.title }}</h3>
+      </div>
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+        <a class="mdl-layout__tab" href="{{ site.baseurl }}/">Home</a>
+        {% for sitePage in site.pages %}
+          {% if sitePage.title %}
+          <a class="mdl-layout__tab {% if page.url == sitePage.url %}is-active{% endif %}" href="{{ sitePage.url | prepend: site.baseurl }}">{{ sitePage.title }}</a>
+          {% endif %}
+        {% endfor %}
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
+          <i class="material-icons" role="presentation">add</i>
+          <span class="visuallyhidden">Add</span>
+        </button>
+      </div>
+    </header>
+
+<!--<header class="site-header">
 
   <div class="wrapper">
 
@@ -25,3 +44,4 @@
   </div>
 
 </header>
+-->

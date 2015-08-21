@@ -1,0 +1,3 @@
+Sitemap: http://krishnaraman.net/sitemap.xml
+User-agent: *
+Allow: /

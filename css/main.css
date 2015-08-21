@@ -1,0 +1,43 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.mdl-blog .mdl-layout__header-row {
+  padding-left: 40px;
+}
+.mdl-blog .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
+  font-size: inherit;
+}
+.mdl-blog .mdl-layout__tab-bar-button {
+  display: none;
+}
+.mdl-blog .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
+  display: none;
+}
+.mdl-blog .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
+.mdl-blog .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
+  overflow: visible;
+}
+.mdl-blog .mdl-layout__tab-bar-container {
+  height: 64px;
+}
+.mdl-blog .mdl-layout__tab-bar {
+  padding: 0;
+  padding-left: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.mdl-blog .mdl-layout__tab-bar .mdl-layout__tab {
+  height: 64px;
+  line-height: 64px;
+}
+.mdl-blog .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+  background-color: white;
+  height: 4px;
+}
+.mdl-blog main > .mdl-layout__tab-panel {
+  padding: 8px;
+  padding-top: 48px;
+}
